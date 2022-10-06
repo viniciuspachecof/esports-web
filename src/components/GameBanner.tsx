@@ -13,7 +13,7 @@ const GameBanner = (props: IGameBanner) => {
         <strong className="font-bold text-white block">
           {props.title}
         </strong>
-        <span className="text-zinc-300 text-sm block">{props.adsCount}</span>
+        <span className="text-zinc-300 text-sm block">{`${props.adsCount} anúncios`}</span>
       </div>
     </a>
   );
